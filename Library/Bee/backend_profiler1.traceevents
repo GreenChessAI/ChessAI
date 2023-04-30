@@ -1,0 +1,511 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682816472447900, "dur":4713, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816472452625, "dur":851, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682816472453503, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682816472453529, "dur":504, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682816472454068, "dur":1100, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816472455168, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437622, "dur":215, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437837, "dur":34, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437872, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437875, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437882, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437884, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437892, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437894, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437901, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437902, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437910, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437912, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437921, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437923, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437929, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437931, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437942, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437955, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473437984, "dur":3909, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682816472455099, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472455217, "dur":10366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472465597, "dur":757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682816472466363, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472478085, "dur":22209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1682816472500422, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1682816472500793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472501847, "dur":4192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1682816472506251, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1682816472506828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472506839, "dur":119979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1682816472626939, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682816472627517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472627531, "dur":24727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1682816472652945, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472653149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472653318, "dur":110279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472763710, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472763819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472763831, "dur":35120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472799049, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472799129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472799139, "dur":28189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472827511, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472827637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472827653, "dur":103355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472931158, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472931395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472931412, "dur":19519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472951018, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472951106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472951117, "dur":27008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472978220, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816472978407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816472978418, "dur":53290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473031805, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473031880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816473031890, "dur":64548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473096586, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473096868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816473096880, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473099863, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473100025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816473100035, "dur":43230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473143367, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473143482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816473143493, "dur":128385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473272118, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473272506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682816473272519, "dur":153781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682816473426386, "dur":11239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472454943, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472455190, "dur":10556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472465747, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682816472466558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472482419, "dur":4662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682816472487224, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1682816472487813, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472487830, "dur":18253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1682816472506254, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682816472506766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472506785, "dur":121041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1682816472627920, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816472628194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472628395, "dur":18041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816472646576, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI.exe" }}
+,{ "pid":12345, "tid":2, "ts":1682816472646687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472646697, "dur":88879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI.exe" }}
+,{ "pid":12345, "tid":2, "ts":1682816472735661, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816472735764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472735774, "dur":30381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816472766302, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816472766409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472766418, "dur":219627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816472986148, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816472986239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816472986252, "dur":31561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473017905, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473018046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473018055, "dur":68213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473086378, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473086491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473086503, "dur":61168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473147758, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473147918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473147930, "dur":58558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473206649, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473206998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473207038, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473211114, "dur":2344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473213466, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473213526, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473216066, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473216176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473216188, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473218696, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473219887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473219902, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473222330, "dur":4873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473227212, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473227224, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473232135, "dur":1049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473233191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473233203, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473236122, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473236476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682816473236495, "dur":172021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682816473408624, "dur":28980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816472455003, "dur":193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816472455196, "dur":10538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816472465734, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682816472466253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816472474715, "dur":435574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682816472910415, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816472910779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816472910792, "dur":67502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816472978415, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816472978578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816472978588, "dur":32200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473010873, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473011050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816473011062, "dur":29267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473040437, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473040654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816473040666, "dur":23556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473064321, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473065032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816473065045, "dur":19883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473085020, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473085108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816473085119, "dur":113867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473199087, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473199177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682816473199189, "dur":238306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682816473437578, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1682816473437581, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472455073, "dur":137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472455210, "dur":10464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472465675, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682816472466336, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472475634, "dur":18257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1682816472493999, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682816472494250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472494261, "dur":20435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682816472514849, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1682816472515520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472515536, "dur":113057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1682816472628709, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472628928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472628939, "dur":61366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472690441, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472690574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472690705, "dur":68934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472759762, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472759857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472759869, "dur":62029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472821998, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472822086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472822097, "dur":33176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472855372, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472855461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472855476, "dur":29215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472884775, "dur":2076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472886859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472886871, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472889379, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472889480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472889493, "dur":35180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472924755, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816472924845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816472924856, "dur":92667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473017601, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473017685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473017695, "dur":132828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473150611, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473150700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473150710, "dur":144923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473295717, "dur":898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473296623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473296635, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473299155, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473299446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473299456, "dur":2797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473302362, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473302446, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473302466, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473304770, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473304862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473304875, "dur":26884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473331986, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473332109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473332122, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473336353, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473336481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473336492, "dur":5539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473342183, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473342343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473342437, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473346522, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473346685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473346696, "dur":13100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473359891, "dur":1106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473361007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473361024, "dur":8773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682816473369888, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682816473369968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473369978, "dur":4259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682816473374312, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682816473374379, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473374424, "dur":2654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682816473377161, "dur":1666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1682816473378836, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473378849, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1682816473381627, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1682816473381720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473381733, "dur":3419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1682816473385306, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1682816473385451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473385462, "dur":4591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1682816473390151, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682816473390239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682816473390249, "dur":4450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682816473394800, "dur":42821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472455215, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472455216, "dur":10366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472465596, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1682816472466124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472469422, "dur":12937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1682816472482482, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682816472483096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472483110, "dur":23836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1682816472507082, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1682816472507679, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472507701, "dur":401067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1682816472908904, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816472909132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472909144, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816472912451, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816472912556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816472912571, "dur":113376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473026041, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473026218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473026229, "dur":29911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473056246, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473056340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473056350, "dur":90520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473146990, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473147166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473147186, "dur":35098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473182446, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473182549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473182560, "dur":108372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473291070, "dur":1647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473292724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473292779, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473295221, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473295589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473295599, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473298202, "dur":1467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473299673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473299686, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473302174, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473302518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473302525, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473304773, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473304869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473304880, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473307369, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473307479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473307493, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473309960, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473310056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473310066, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473313795, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473313902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473313915, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473317561, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473317772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473317783, "dur":8247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473326128, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473326229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473326239, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473329287, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473329379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473329389, "dur":5581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473335060, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473335294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473335305, "dur":8837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473344236, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473344327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473344338, "dur":3458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473347898, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473348202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473348223, "dur":7108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473355411, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473355580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473355588, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473360525, "dur":35688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473396221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682816473396931, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682816473399390, "dur":38215, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472455026, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472455205, "dur":10492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472465698, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1682816472466362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472476723, "dur":27575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1682816472504401, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1682816472505030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472505052, "dur":126047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1682816472631221, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1682816472631489, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472631499, "dur":20752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1682816472652550, "dur":648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682816472653204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472653357, "dur":33515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682816472686976, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472687090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472687103, "dur":36123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472723311, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472723404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472723413, "dur":66622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472790115, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472790220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472790231, "dur":45401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472835734, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472835834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472835845, "dur":34215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472870172, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472870358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472870369, "dur":6912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472877370, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472877572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472877583, "dur":6818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472884490, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472884673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472884683, "dur":11590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472896363, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472896662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472896675, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472899242, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472899435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472899447, "dur":6443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472905997, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472906224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472906295, "dur":4489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472910880, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472910975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472910982, "dur":88291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472999369, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816472999562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816472999573, "dur":41055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473040743, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473040878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473040893, "dur":31065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473072100, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473072198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473072211, "dur":71148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473143447, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473143533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473143541, "dur":189284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473332914, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473332995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473333005, "dur":6094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473339179, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473339350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473339360, "dur":29404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682816473368864, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1682816473368965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473368977, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1682816473375596, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1682816473375903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473375917, "dur":6399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1682816473382430, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682816473382520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682816473382531, "dur":16265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1682816473398900, "dur":38710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472455151, "dur":72, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472455223, "dur":10357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472465597, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1682816472466122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472468902, "dur":158891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1682816472627920, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472628174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472628386, "dur":34993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472663500, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472663668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472663683, "dur":40684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472704460, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472704677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472704692, "dur":67358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472772161, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472772257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472772270, "dur":37122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472809482, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472809573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472809582, "dur":38664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472848334, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472848412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472848422, "dur":136469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472986462, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816472986578, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816472986593, "dur":29360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473016051, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473016270, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816473016283, "dur":26216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473042644, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473042751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816473042763, "dur":52730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473095607, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473095702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816473095713, "dur":88934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473184791, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473185135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816473185156, "dur":22704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473207948, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473208062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816473208074, "dur":62575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473270733, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473270923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682816473270936, "dur":145188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682816473416220, "dur":21388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816472454934, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816472455186, "dur":10392, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816472465597, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1682816472465602, "dur":1028, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816472466636, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1682816472466647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816472480730, "dur":13369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1682816472494101, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682816472494341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816472494354, "dur":432287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1682816472926729, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816472926807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816472926817, "dur":87582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473014534, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473014690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473014702, "dur":113788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473128594, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473128778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473128788, "dur":79079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473207988, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473208307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473208319, "dur":6049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473214523, "dur":3935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473218466, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473218482, "dur":7377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473225953, "dur":2769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473228730, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473228743, "dur":3535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473232388, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473232513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473232572, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473234613, "dur":2122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473236740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473236750, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473239648, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473239950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473239963, "dur":108566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473348625, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473348740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473348750, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473351643, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473351821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473351834, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473355219, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473355287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473355297, "dur":13671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682816473369146, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1682816473369242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473369251, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1682816473374075, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1682816473374157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473374166, "dur":12775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1682816473387059, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1682816473387161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473387172, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1682816473390875, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1682816473390963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473390972, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1682816473394744, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1682816473395068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682816473395078, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/santi/wkspaces/GreenChessAI/GreenChessAI_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1682816473397712, "dur":39904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682816473445406, "dur":2989, "ph":"X", "name": "ProfilerWriteOutput" }
+,

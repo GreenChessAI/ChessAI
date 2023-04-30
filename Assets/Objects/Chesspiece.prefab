@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8073137541461382470}
   - component: {fileID: 4532343405289003330}
   - component: {fileID: 7368611523824901769}
+  - component: {fileID: -5874930072755846063}
   m_Layer: 0
   m_Name: Chesspiece
   m_TagString: Untagged
@@ -98,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 0}
-  movePlate: {fileID: 0}
+  movePlate: {fileID: 308634148872882417, guid: d966d8faa285c9546bd00c5584c59817, type: 3}
   black_queen: {fileID: 21300000, guid: bd23b85f20e05214d84e76db07f484a5, type: 3}
   black_knight: {fileID: 21300000, guid: fed4e990fe916d247a24c35817588d10, type: 3}
   black_bishop: {fileID: 21300000, guid: c223b2683be6ff648b06490ec661c069, type: 3}
@@ -111,3 +112,30 @@ MonoBehaviour:
   white_king: {fileID: 21300000, guid: 70ff874616608ae468e389468f507e4f, type: 3}
   white_rook: {fileID: 21300000, guid: d9ee4847d2c257d42acc985328cc521a, type: 3}
   white_pawn: {fileID: 21300000, guid: 72837eb3c80cbb44fb1751585f519b44, type: 3}
+  mine: {fileID: 21300000, guid: 81a4a6f8dfc22d8478751f8c42961802, type: 3}
+--- !u!61 &-5874930072755846063
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091282526671443267}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.2, y: 0.2}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.2}
+  m_EdgeRadius: 0
